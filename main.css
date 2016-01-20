@@ -89,7 +89,7 @@ body{  font-family: Arial;
 }
 
 
-.buttonCupleno{
+.buttonCupleno:hover{
     display: inline-block;
     border-radius: 5px;
     text-align: center;
@@ -98,6 +98,18 @@ body{  font-family: Arial;
     height: 35px;
     box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
     background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+}
+
+.buttonNeCupleno:active{
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 85px;
+    height: 35px;
+    box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+    background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+    text-decoration: line-through;
 }
 
 .delete{

@@ -17,13 +17,15 @@
         <button class = "buttonDodaty" type="button">Додати </button>
         </div>
 
-       <div class="str2">
+       <div class = "list-of-items">
+       <div class="str2" id="item1">
            <div class="colom1">
-           <span> Помідори </span>
+           <span class="name-not-bought"> Помідори </span>
+               <span class="name-bought"> Помідори </span>
                </div>
 
            <div class="colom2">
-               <button  class="buttonMinus"><b>-</b></button>
+               <button  class="buttonMinus" disabled="disabled"><b>-</b></button>
                <span class="number1">1</span>
               <button  class="buttonPlus"><b>+</b></button>
             </div>
@@ -36,27 +38,29 @@
 
         </div>
 
-        <div class="str2">
+        <div class="str2" id="item2">
             <div class="colom1">
-                <span> Печиво </span>
+                <span class="name-not-bought"> Бринза </span>
+                <span class="name-bought"> Бринза </span>
             </div>
 
             <div class="colom2">
-                <button  class="buttonMinus"><b>-</b></button>
+                <button  class="buttonMinus"><b>-</b> </button>
                 <span class="number1">1</span>
                 <button  class="buttonPlus"><b>+</b></button>
             </div>
 
-            <div class="colom3">
+            <div class="colom3" >
                 <button class="buttonCupleno" type="button"> Куплено </button>
                 <button class="delete" type="button">&#215;</button>
             </div>
 
         </div>
 
-        <div class="str2">
+        <div class="str2" id="item3">
             <div class="colom1">
-                <span> Сир </span>
+                <span class="name-not-bought"> Шпінат </span>
+                <span class="name-bought"> Шпінат </span>
             </div>
 
             <div class="colom2">
@@ -68,19 +72,21 @@
             <div class="colom3">
                 <button class="buttonCupleno" type="button"> Куплено </button>
                 <button class="delete" type="button">&#215;</button>
+                <button class="buttonNeCupleno" type="button" hidden> Не куплено </button>
             </div>
 
         </div>
 
      </div>
+        </div>
 
     <div class="result">
-        <div class="resStr">   <div class = "resText"> Залишилося </div> </div>
-      <div class="resStr"> <!-- <div class = "resRect"> Помідори <div class="resCircl"> 1 </div> </div> -->
+        <div class="resStr">   <div class = "resText" > Залишилося </div> </div>
+      <div class="resStr" id="zalishock"> <!-- <div class = "resRect"> Помідори <div class="resCircl"> 1 </div> </div> -->
             <div class = "resRect"> Печиво <div class="resCircl"> 1 </div> </div>
             <div class = "resRect"> Сир <div class="resCircl"> 1 </div> </div> </div>
 
-        <div class="resStr"> <div class="resText"> Куплено </div> </div>
+        <div class="resStr" id="is-bought"> <div class="resText" > Куплено </div> </div>
         <div class="resStr"><div class="resRect"> <div class="resThrowText"> Помідори <div class="resCircl"> 1 </div> </div> </div> </div>
         </div>
 </div>

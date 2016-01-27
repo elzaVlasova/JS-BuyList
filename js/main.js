@@ -34,6 +34,15 @@ $(function(){
       $( $(this).parents('.str2')).remove();
    });
 
+
+   /* $('.buttonPlus').click(function(){
+
+        //var counter = $($(this).parent().child('number1')).getData();
+        var counter = $('.buttonPlus').prev().val();
+        console.log(counter);
+        $('.buttonPlus').prev().val(++counter);
+    });
+
     /*$('.name-not-bought').click(function(){
         $ ($(this).) // меняет texarea na input
     });*/

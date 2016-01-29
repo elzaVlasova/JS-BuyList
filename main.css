@@ -16,14 +16,15 @@ body{  font-family: Arial;
     float: left;
 }
 
-.str1{
+.buyer-title-line{
     background-color: white;
     width: 90%;
     height: 25%;
+    padding-left: 10px;
     margin: 15px;
 }
 
-.buttonDodaty{
+.button-add-product{
     background-color: #3371cd;
     color: white;
     border-radius: 5px;
@@ -33,25 +34,26 @@ body{  font-family: Arial;
 
 }
 
-.inputNazvaTovaru{
+.input-name-of-product{
     background-color: white;
     line-height: 24px;
-    width: 70%;
+    width: 75%;
     height: 100%;
     border-radius: 2px;
 
 }
 
-.str2 {
+.product {
     background-color: white;
     box-sizing: inherit;
     height: 20%;
     padding:15px;
     vertical-align: middle;
     border-top: 1px solid #d2d2d2;
+    border-color: white;
 }
 
-.colom1 {
+.colom-1-name {
     background-color: white;
     width: 25%;
     height: inherit;
@@ -73,7 +75,7 @@ body{  font-family: Arial;
     text-decoration: line-through;
 }
 
-.colom2 {
+.colom-2-quantity {
     background-color: white;
     width: 32.5%;
     height: inherit;
@@ -86,7 +88,7 @@ body{  font-family: Arial;
     text-align: center;
 }
 
-.colom3 {
+.colom-3-state {
     background-color: white;
     height: inherit;
     display: inline-block;
@@ -99,7 +101,7 @@ body{  font-family: Arial;
 }
 
 
-.buttonCupleno{
+.button-cupleno{
     display: inline-block;
     border-radius: 5px;
     text-align: center;
@@ -110,7 +112,7 @@ body{  font-family: Arial;
     background: #dcdcdc linear-gradient(#fff, #dcdcdc);
 }
 
-.buttonNeCupleno{
+.button-ne-cupleno{
     display: inline-block;
     border-radius: 5px;
     text-align: center;
@@ -134,7 +136,7 @@ body{  font-family: Arial;
     background: red;
 }
 
-.buttonMinus {
+.button-minus {
     position: relative;
     display: inline-block;
     font-weight: 700;
@@ -152,7 +154,7 @@ body{  font-family: Arial;
    /* box-shadow: 0 0 0 1px #902516 inset, 0 1px 1px #ffffff;*/
 }
 
-.buttonPlus {
+.button-plus {
     position: relative;
     display: inline-block;
     font-weight: 700;
@@ -194,7 +196,6 @@ body{  font-family: Arial;
 .result{
     background-color: white;
     width: 25%;
-    height: 200px;
 
     border: 1px solid #d2d2d2;
     border-radius: 5px;
@@ -207,7 +208,6 @@ body{  font-family: Arial;
 .resStr{
     border-top: 1px solid #d2d2d2;
     box-sizing: inherit;
-    height: 12%;
     padding: 10px;
     padding-left: 15px;
     vertical-align: middle;
@@ -229,12 +229,15 @@ body{  font-family: Arial;
     font-size: small;
     border-radius: 5px;
     background-color: #d2d2d2;
-    padding-top: 5px;
+    padding-top: 3px;
+    margin: 2px;
 
 }
 
 .resCircl{
     display: inline-block;
+    float: right;
+    margin-right: 3px;
     width:15px;
     height:15px;
     text-align: center;
@@ -244,6 +247,7 @@ body{  font-family: Arial;
     background-color: orangered;
 }
 
-.resThrowText{
+#is-bought{
     text-decoration: line-through;
+    color: green;
 }

@@ -47,10 +47,9 @@ body{  font-family: Arial;
     background-color: white;
     box-sizing: inherit;
     height: 20%;
-    padding:15px;
+    padding:10px;
     vertical-align: middle;
-    border-top: 1px solid #d2d2d2;
-    border-color: white;
+    border-top: 0.5px solid #c6c6c6;
 }
 
 .colom-1-name {
@@ -205,7 +204,7 @@ body{  font-family: Arial;
     float: left;
 }
 
-.resStr{
+.res-label{
     border-top: 1px solid #d2d2d2;
     box-sizing: inherit;
     padding: 10px;
@@ -214,12 +213,13 @@ body{  font-family: Arial;
 
 }
 
-.resText{
+.res-text{
     font-weight: 600;
     font-size: large;
+    padding: 8px;
 }
 
-.resRect{
+.res-rect{
     display: inline-block;
     width: 100px;
     height: 24px;
@@ -231,10 +231,11 @@ body{  font-family: Arial;
     background-color: #d2d2d2;
     padding-top: 3px;
     margin: 2px;
+    text-decoration: inherit;
 
 }
 
-.resCircl{
+.res-circl{
     display: inline-block;
     float: right;
     margin-right: 3px;
@@ -245,9 +246,10 @@ body{  font-family: Arial;
     font-weight: 300;
     border-radius: 100%;
     background-color: orangered;
+    text-decoration: inherit;
 }
 
-#is-bought{
+#is-bought.res-rect{
     text-decoration: line-through;
     color: green;
 }
